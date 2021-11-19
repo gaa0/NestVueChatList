@@ -1,28 +1,36 @@
-# Blog
+# Nestjs file uploading
 
-List of all projects in the repository:
+Nestjs Vue real-time chat, which utilizes Websockets to implement real-time communication in Nestjs. For an in-depth explanation of the application, you can follow [this article](https://gabrieltanner.org/blog/nestjs-realtime-chat).
 
-- [Nestjs GraphQL Server](nest-graph-ql)
-- [Nestjs File uploading](nest-file-uploading)
-- [Nestjs MongoDB CRUD](Nest-CRUD)
-- [Nestjs Websocket Chat](NestVueChat)
-- [Nuxt Ghost Blog](nuxt-ghost)
-- [Prisma CRUD](prisma-crud)
-- [Android Notifications](Notifications)
-- [Android Camera](Camera)
-- [Android CameraX](CameraX)
-- [Nestjs Typeorm](nestjs-typeorm)
-- [Nestjs Authentication](nest-auth)
-- [Express Authentication Boilerplate](express-auth-boilerplate)
+## Requirements
 
-## Author
+- [NodeJS](https://nodejs.org/en/)
 
-Gabriel Tanner
+## Getting started
 
-## Support me
+### Installing dependencies
 
-<a href="https://www.buymeacoffee.com/gabrieltanner" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+First, you need to install all the needed dependencies.
 
-## License
+```bash
+$ npm install
+```
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+### Starting the application
+
+After installing the dependencies, you can run the application using one of the following commands.
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Testing the application
+
+After starting the application, you should see our layout when visiting http://localhost:3000 in your browser. After opening the application in multiple browser windows, you can test the functionality. 

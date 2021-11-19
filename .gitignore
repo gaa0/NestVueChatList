@@ -1,9 +1,8 @@
+package-lock.json
+
 # compiled output
 /dist
 /node_modules
-
-# API Keys
-.env
 
 # Logs
 logs
